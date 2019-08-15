@@ -7,9 +7,11 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
+    @label_button = "Save"
   end
 
   def edit
+    @label_button = "Update"
   end
 
   def update
