@@ -43,6 +43,15 @@ $navbar-default-bg: #ff3333;
     background-color: black;
 }
 
+.article-actions {
+    border-top: 1px solid #eeaaee;
+    padding-top: 5px;
+}
+
+.descriptons{
+    margin-top: 0;
+}
+
 footer{
     margin-top: 45px;
     padding-top: 5px;
@@ -66,3 +75,4 @@ footer ul li{
     float: left;
     margin-left: 15px;
 }
+
