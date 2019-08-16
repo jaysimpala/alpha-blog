@@ -7,6 +7,7 @@ ruby '2.5.5'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'pg', group: :production
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
 # Use Puma as the app server
@@ -58,10 +59,6 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
-end
-
-group :production do
-  gem 'pg', '~> 0.18'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
